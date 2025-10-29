@@ -1,0 +1,11 @@
+old/
+build/
+.vscode/
+*.user
+*.vcxproj*
+*.sln
+*.o
+*.a
+*.so
+*.dll
+.DS_Store
