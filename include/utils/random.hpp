@@ -3,7 +3,7 @@
 
 #include <random>
 
-namespace random
+namespace rand
 {
 
     inline std::mt19937 &get_rng()
@@ -19,6 +19,6 @@ namespace random
         return std::bernoulli_distribution(p)(get_rng());
     }
 
-} // namespace random
+} // namespace rand
 
 #endif // RANDOM_HPP
