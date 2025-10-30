@@ -15,7 +15,7 @@ void setup()
 {
     for (uint32_t i = 0; i < HEIGHT; ++i)
         for (uint32_t j = 0; j < WIDTH; ++j)
-            cells[i][j] = rand::bernoulli();
+            cells[i][j] = rng::bernoulli();
 }
 
 void draw()
