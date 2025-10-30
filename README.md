@@ -1,5 +1,8 @@
 # Game Of Life
 
+![Language](https://img.shields.io/badge/Language-C++-blue?style=for-the-badge&logo=cplusplus)
+![Platform](https://img.shields.io/badge/Platform-Linux_only-red?style=for-the-badge&logo=linux)
+![Interface](https://img.shields.io/badge/Interface-Console-black?style=for-the-badge)
 
 ## Description
 
