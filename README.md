@@ -11,7 +11,7 @@
 
 from [wiki](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
-## Rules
+## Basic Rules
 
 - Any live cell with fewer than two live neighbours dies, as if by underpopulation.
 - Any live cell with two or three live neighbours lives on to the next generation.
@@ -61,22 +61,23 @@ The programm generates **Life** simulaation in Linux console $120\times30$ size
 
 - [✕] Interactive cell painting with cursor
 - [✕] Custom and standard starting configurations
-- [✕] Save configuration
+- [✕] Save/Load configurations
 
 ## Version 0.4.0 - Saving and Analysis
 
 - [✕] Real-time statistics (generation, FPS, etc.)
-- [✕] Save history
+- [✕] Save simulation history
 - [✕] Export to image format
 
 ## Version 0.5.0 - More Opportunities
 
 - [✕] Config support
 - [✕] Custom rule system (B/S notation)
-- [✕] Setting screen sizes
-- [✕] Setting collors
+- [✕] Adjustable grid size and movement in space
+- [✕] Color scheme settings
 
 ## Version 1.0.0 - Full Launch
 
 - [✕] Cross-platform support
 - [✕] Performance optimizations
+- [✕] Comprehensive documentation
