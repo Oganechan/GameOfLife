@@ -1,8 +1,9 @@
 # Game Of Life
 
-![Language](https://img.shields.io/badge/Language-C++-blue?style=for-the-badge&logo=cplusplus)
+![Language](https://img.shields.io/badge/Language-C++-blue?style=for-the-badge&logo=cplusplus) 
 ![Platform](https://img.shields.io/badge/Platform-Linux_only-red?style=for-the-badge&logo=linux)
 ![Interface](https://img.shields.io/badge/Interface-Console-black?style=for-the-badge)
+![Version](https://img.shields.io/badge/Verion-0.1.0-green?style=for-the-badge)
 
 ## Description
 
@@ -33,3 +34,49 @@ cmake .. && make
 ## Output
 
 The programm generates **Life** simulaation in Linux console $120\times30$ size
+
+# Roadmap
+
+![](https://img.shields.io/badge/✓-0.1.0-green?style=for-the-badge)
+![](https://img.shields.io/badge/✕-0.2.0-red?style=for-the-badge)
+![](https://img.shields.io/badge/✕-0.3.0-red?style=for-the-badge)
+![](https://img.shields.io/badge/✕-0.4.0-red?style=for-the-badge)
+![](https://img.shields.io/badge/✕-0.5.0-red?style=for-the-badge)
+![](https://img.shields.io/badge/✕-1.0.0-red?style=for-the-badge)
+
+## Version 0.1.0 - Start Point
+
+- [✓] Basic Conway's Game of Life implementation
+- [✓] Random initialization
+- [✓] Simple console visualization
+- [✓] Toroidal world geometry
+
+## Version 0.2.0 - Keybinding
+
+- [✕] Pause/Resume functionality (Spacebar)
+- [✕] Step-by-step mode (Enter)
+- [✕] Speed control (+/- keys)
+
+## Version 0.3.0 - Content Creation Tools
+
+- [✕] Interactive cell painting with cursor
+- [✕] Custom and standard starting configurations
+- [✕] Save configuration
+
+## Version 0.4.0 - Saving and Analysis
+
+- [✕] Real-time statistics (generation, FPS, etc.)
+- [✕] Save history
+- [✕] Export to image format
+
+## Version 0.5.0 - More Opportunities
+
+- [✕] Config support
+- [✕] Custom rule system (B/S notation)
+- [✕] Setting screen sizes
+- [✕] Setting collors
+
+## Version 1.0.0 - Full Launch
+
+- [✕] Cross-platform support
+- [✕] Performance optimizations
