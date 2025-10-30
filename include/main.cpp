@@ -1,12 +1,10 @@
 #include <iostream>
 #include <cstdint>
 #include <unistd.h>
-#include "./utils/random.hpp"
+#include "random.hpp"
 
 constexpr int32_t HEIGHT = 30;
 constexpr int32_t WIDTH = 120;
-
-const char *colors[] = {"\033[40m", "\033[42m", "\033[44m", "\033[45m"};
 
 bool cells[HEIGHT][WIDTH];
 int32_t neighbors[HEIGHT][WIDTH];
@@ -20,20 +18,15 @@ void setup()
 
 void draw()
 {
-    std::cout << "\033[2J";
+    std::cout << "\033[H";
 
     for (uint32_t i = 0; i < HEIGHT; ++i)
     {
         for (uint32_t j = 0; j < WIDTH; ++j)
         {
-            if (cells[i][j])
-            {
-                std::cout << "█";
-                continue;
-            }
-            std::cout << " ";
+            std::cout << (cells[i][j] ? "█" : " ");
         }
-        std::cout << std::endl;
+        std::cout << "\n";
     }
 }
 
